@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,141 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* LandingPage.css */
+
+/* Overall landing page styles */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation bar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.logo img {
+  height: 50px; /* Adjust the height as needed */
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+/* Hero section styles */
+.hero-section {
+  /* background-image: url('hero-background.jpg'); Replace with your own image */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: #ff5500;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #ff7733;
+  cursor: pointer;
+}
+
+/* Contact section styles */
+.contact-section {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  background-color: #ff5500;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: #ff7733;
+  cursor: pointer;
+}
+
+/* Footer section styles */
+.footer-section {
+  background-color: #333333;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+.landing-page {
+  background-image: url(../public/ahmed-rajgoli-shoaib-shakeel-FCsA8Adcgr4-unsplash.jpg);
+  height: 750px;
+  
+}
+.home{
+  background-image: url(../public/boris-stefanik-wxJscL5ZzDA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card:hover {
+  background-color: #605e5e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
